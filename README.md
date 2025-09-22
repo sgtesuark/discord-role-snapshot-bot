@@ -75,14 +75,16 @@ In your Discord server, use the slash command:
 …and a CSV file is attached.
 
 ## 📂 CSV Format
+```bash
 "Timestamp";"Username";"Discord-ID"
-"21.09.2025 16:45:12";"Alice";"123456789012345678"
-"21.09.2025 16:45:12";"Bob";"234567890123456789"
+"21.09.2025 04:20:33";"Alice";"123456789012345678"
+"21.09.2025 04:20:33";"Bob";"234567890123456789"
+```
 
 ⚠️ Depending on your .env settings, the timestamp format will change, e.g.:
 
-- German default: 22.09.2025 04:20:33
-- English default: 2025-09-22 04:20:33
+- German default: 21.09.2025 04:20:33
+- English default: 2025-09-21 04:20:33
 - Custom via BOT_DATEFMT: whatever format you specify
 
 ## 📜 License
