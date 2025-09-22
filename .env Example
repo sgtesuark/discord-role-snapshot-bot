@@ -1,0 +1,21 @@
+# === Required ===
+DISCORD_TOKEN=your_bot_token_here
+
+# === Optional ===
+# Default channel (if no channel is passed to /snapshot)
+DEFAULT_CHANNEL_ID=123456789012345678
+
+# Language for bot messages
+# Supported: de, en
+BOT_LANG=en
+
+# Timezone for timestamp formatting
+# Must be a valid IANA timezone, e.g. Europe/Berlin, UTC, America/New_York
+BOT_TZ=Europe/Berlin
+
+# Custom date format (overrides BOT_LANG defaults)
+# Examples:
+#   BOT_DATEFMT=%d.%m.%Y %H:%M:%S
+#   BOT_DATEFMT=%Y-%m-%d %H:%M:%S
+#   BOT_DATEFMT=%d.%m.%Y %H:%M:%S
+BOT_DATEFMT=%d.%m.%Y %H:%M:%S
