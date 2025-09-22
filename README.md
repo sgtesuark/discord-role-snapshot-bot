@@ -54,7 +54,9 @@ pip install -U discord.py python-dotenv
         #   BOT_DATEFMT=%d.%m.%Y %H:%M:%S
         BOT_DATEFMT=%d.%m.%Y %H:%M:%S
 6. Run the bot:
+   ```bash
    python snapshot_role_bot.py
+   ```
 
 ## ▶️ Usage
 In your Discord server, use the slash command:
@@ -84,4 +86,4 @@ In your Discord server, use the slash command:
 - Custom via BOT_DATEFMT: whatever format you specify
 
 ## 📜 License
-MIT
+[MIT](https://github.com/sgtesuark/discord-role-snapshot-bot/blob/main/LICENSE)
