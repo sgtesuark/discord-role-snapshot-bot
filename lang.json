@@ -1,0 +1,36 @@
+{
+  "de": {
+    "cmd.description": "CSV-Snapshot aller Mitglieder mit einer Rolle; Upload in einen Kanal.",
+    "arg.role": "Rolle, deren Mitglieder erfasst werden",
+    "arg.channel": "(Optional) Zielkanal für die CSV (sonst Default- oder aktueller Kanal)",
+    "err.need_manage_guild": "❌ Du benötigst die Berechtigung **Server verwalten**.",
+    "err.guild_only": "❌ Dieser Befehl kann nur in einem Server genutzt werden.",
+    "err.no_target_channel": "❌ Konnte keinen Zielkanal ermitteln.",
+    "err.missing_perms": "❌ Fehlende Rechte in {channel} (Nachrichten senden / Dateien anhängen / Kanal ansehen).",
+    "err.send_forbidden": "❌ Keine Berechtigung, in {channel} zu posten.",
+    "err.unexpected_send": "❌ Unerwarteter Fehler beim Senden der Datei: `{error}`",
+    "ok.posted": "✅ Snapshot erstellt und in {channel} gepostet.",
+    "post.header": "📸 Snapshot für Rolle <@&{role_id}> - {count} Nutzer",
+    "post.timestamp": "🕒 Erstellt am: {timestamp}",
+    "csv.header.timestamp": "Zeitstempel",
+    "csv.header.username": "Username",
+    "csv.header.discord_id": "Discord-ID"
+  },
+  "en": {
+    "cmd.description": "CSV snapshot of members with a role; uploads to a channel.",
+    "arg.role": "Role whose members to snapshot",
+    "arg.channel": "(Optional) Target channel for the CSV (else default/current)",
+    "err.need_manage_guild": "❌ You need the **Manage Server** permission.",
+    "err.guild_only": "❌ This command can only be used in a server.",
+    "err.no_target_channel": "❌ Could not determine a target channel.",
+    "err.missing_perms": "❌ Missing permissions in {channel} (Send Messages / Attach Files / View Channel).",
+    "err.send_forbidden": "❌ No permission to post in {channel}.",
+    "err.unexpected_send": "❌ Unexpected error while sending the file: `{error}`",
+    "ok.posted": "✅ Snapshot created and posted in {channel}.",
+    "post.header": "📸 Snapshot for role <@&{role_id}> - {count} members",
+    "post.timestamp": "🕒 Created at: {timestamp}",
+    "csv.header.timestamp": "Timestamp",
+    "csv.header.username": "Username",
+    "csv.header.discord_id": "Discord ID"
+  }
+}
